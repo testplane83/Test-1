@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Fira Sans', sans-serif;
+    background: #cddbcf;
+    height: 100%;
+}
+
+header {
+    background: #29502d;
+}
+
+header .container {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c2b156;
+    font-size: 21px;
+    margin-left: 48px;
+}
+
+h1 {
+    color: #c2b156;
+}
+
+nav ul {
+    display: flex;
+}
+
+.main-1 h1 {
+    align-items: center;
+    color: #29502d; 
+}
+
+.main-1 button {
+    color: #c2b156;
+    width: 180px;
+    height: 60px;
+    background: #29502d;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.main-1 {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-1 img {
+    align-items: center;
+    height: 480px;
+    width: 370;
+}
+
+.main-1 button {
+    align-items: center;
+}
+
+.end-page {
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
